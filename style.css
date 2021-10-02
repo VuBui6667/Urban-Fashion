@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/background.png);
+    width: 100%;
+}
+
+.nav {
+    margin: 30px 40px;
+    display: flex;
+    flex: 1;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding: 40px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+}
+
+.item a:hover {
+    color: #fc5c9c;
+    transition: ease-in 0.2s;
+    -moz-transition: ease-in 0.2s;
+    -webkit-transition: ease-in 0.2s; 
+}
+
+.shopping img {
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 60px;
+}
+
+.shopping img:hover {
+    opacity: 0.6;
+    transition: ease-in 0.2s;
+    -moz-transition: ease-in 0.2s;
+    -webkit-transition: ease-in 0.2s; 
+}
+
+.sub-nav {
+    flex: 1;
+}
+.logo,
+.shopping {
+    cursor: pointer;
+}
+
+
+
+.container {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.btn {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: inline;
+    padding: 12px 14px;
+    border-radius: 8px;
+    margin: 20px;
+    color: white;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #085078;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title {
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 52px;
+}
+
+.sub-title {
+    margin: 10px 20px;
+    opacity: 0.7;
+    font-size: 18px;
+}
+
+.arrow {
+    display: flex;
+}
+
+.arrow img {
+    width: 40px;
+    margin: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.main-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 90%;
+    margin-right: 180px;
+    z-index: -1;
+}
+
+.vertical{
+    transform: rotate(-90deg);
+    display: flex;
+    position: absolute;
+    left: -50px;
+    bottom: 180px;
+}
+
+.social {
+    padding: 15px;
+    color: #a56cc1;
+    text-decoration: underline;
+    cursor: pointer;
+}
